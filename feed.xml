@@ -14,8 +14,8 @@
         <author>
             <name>vscan</name>
         </author>
-        <link href="https://may95429.github.io/vscan/csrf-cross-site-request-forgery.html"/>
-        <id>https://may95429.github.io/vscan/csrf-cross-site-request-forgery.html</id>
+        <link href="https://may95429.github.io/vscan/csrf-cross-site-request-forgery/"/>
+        <id>https://may95429.github.io/vscan/csrf-cross-site-request-forgery/</id>
 
         <updated>2018-05-03T18:03:47+08:00</updated>
             <summary type="html">
@@ -76,8 +76,8 @@
         <author>
             <name>vscan</name>
         </author>
-        <link href="https://may95429.github.io/vscan/cross-site-scripting.html"/>
-        <id>https://may95429.github.io/vscan/cross-site-scripting.html</id>
+        <link href="https://may95429.github.io/vscan/cross-site-scripting/"/>
+        <id>https://may95429.github.io/vscan/cross-site-scripting/</id>
 
         <updated>2018-02-28T22:40:16+08:00</updated>
             <summary type="html">
@@ -161,8 +161,8 @@ Cross-Site Scripting 可以分為反射式(Reflected)、儲存式(Stored)：
         <author>
             <name>vscan</name>
         </author>
-        <link href="https://may95429.github.io/vscan/sql-injection.html"/>
-        <id>https://may95429.github.io/vscan/sql-injection.html</id>
+        <link href="https://may95429.github.io/vscan/sql-injection/"/>
+        <id>https://may95429.github.io/vscan/sql-injection/</id>
 
         <updated>2017-11-15T21:37:38+08:00</updated>
             <summary type="html">
@@ -232,8 +232,8 @@ SQL Injection 為透過外部使用者的輸入或可供改造的參數，未經
         <author>
             <name>vscan</name>
         </author>
-        <link href="https://may95429.github.io/vscan/injection-attack.html"/>
-        <id>https://may95429.github.io/vscan/injection-attack.html</id>
+        <link href="https://may95429.github.io/vscan/injection-attack/"/>
+        <id>https://may95429.github.io/vscan/injection-attack/</id>
 
         <updated>2017-06-15T23:05:21+08:00</updated>
             <summary type="html">
@@ -280,8 +280,8 @@ Injection 式的攻擊手法都是直接信任外部輸入，沒有經過字元�
         <author>
             <name>vscan</name>
         </author>
-        <link href="https://may95429.github.io/vscan/http-header-an-quan-xing.html"/>
-        <id>https://may95429.github.io/vscan/http-header-an-quan-xing.html</id>
+        <link href="https://may95429.github.io/vscan/http-header-an-quan-xing/"/>
+        <id>https://may95429.github.io/vscan/http-header-an-quan-xing/</id>
 
         <updated>2017-03-30T22:20:12+08:00</updated>
             <summary type="html">
