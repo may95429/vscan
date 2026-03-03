@@ -6,7 +6,7 @@
 </url>
 <url>
 <loc>https://may95429.github.io/vscan/blog/</loc>
-<lastmod>2026-03-02T18:59:31+08:00</lastmod>
+<lastmod>2026-03-03T20:27:10+08:00</lastmod>
 </url>
 <url>
 <loc>https://may95429.github.io/vscan/contact/</loc>
@@ -22,7 +22,7 @@
 </url>
 <url>
 <loc>https://may95429.github.io/vscan/csrf-cross-site-request-forgery/</loc>
-<lastmod>2026-03-02T18:40:55+08:00</lastmod>
+<lastmod>2026-03-03T20:26:08+08:00</lastmod>
 <image:image>
 <image:loc>https://may95429.github.io/vscan/media/posts/5/csrf.jpg</image:loc>
 <image:title><![CDATA[CSRF]]></image:title>
@@ -39,6 +39,14 @@
 <url>
 <loc>https://may95429.github.io/vscan/injection-attack/</loc>
 <lastmod>2026-03-02T18:40:55+08:00</lastmod>
+</url>
+<url>
+<loc>https://may95429.github.io/vscan/new-post/</loc>
+<lastmod>2026-03-03T20:25:23+08:00</lastmod>
+<image:image>
+<image:loc>https://may95429.github.io/vscan/media/posts/12/shutterstock_313805942-624x399-2.webp</image:loc>
+<image:title><![CDATA[new post]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://may95429.github.io/vscan/program-security/</loc>
