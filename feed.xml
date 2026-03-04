@@ -20,7 +20,7 @@
         <updated>2018-05-03T18:03:47+08:00</updated>
             <summary type="html">
                 <![CDATA[
-                    CSRF 為一種類似詐騙的手法，藉由偽造的第三方網站內容誘騙受害者連線，該受害者需已透過身分驗證拿到目標網站的 Session，導致在不知情狀況下，受害者開啟了偽造網站後觸發了對目標網站以受害者身分的連線要求。 該弱點導致攻擊者劫持受害者的 Session，等於攻擊者拿到了受害者的身分，並在不知情狀況下被操作未知行為，可能造成受害者的機敏資料洩漏或交易行為變更等後果。此攻擊行為與&hellip;
+                    CSRF 為一種類似詐騙的手法，藉由偽造的第三方網站內容誘騙受害者連線，該受害者需已透過身分驗證拿到目標網站的 Session，導致在不知情狀況下，受害者開啟了偽造網站後觸發了對目標網站以受害者身分的連線要求。 該弱點導致攻擊者劫持受害者的&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -62,7 +62,7 @@
         <updated>2018-02-28T22:40:16+08:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Cross-Site Scripting (XSS) 對網站而言，是一個大麻煩，不只是其弱點容易被發現與使用，被利用後所造成的後果更是無法預期! 現今幾乎所有的網站都會使用到&hellip;
+                    Cross-Site Scripting (XSS) 對網站而言，是一個大麻煩，不只是其弱點容易被發現與使用，被利用後所造成的後果更是無法預期!&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -120,7 +120,7 @@
         <updated>2017-11-15T21:37:38+08:00</updated>
             <summary type="html">
                 <![CDATA[
-                    SQL Injection 蟬聯 OWASP TOP&hellip;
+                    SQL Injection 蟬聯 OWASP&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -157,7 +157,7 @@
         <updated>2017-06-15T23:05:21+08:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Injection Attack (注入式攻擊)為一種利用外部不被信任的輸入來源，未經驗證就被直接帶入後端處理，導致利用跳脫字元或編碼等方式造成攻擊字串被執行，進而發生無法預期行為，更由於其普遍性導致網路上有多種工具可協助進行攻擊，不需要高深技巧，可想而知其嚴重性！ 常見的 Injection&hellip;
+                    Injection Attack (注入式攻擊)為一種利用外部不被信任的輸入來源，未經驗證就被直接帶入後端處理，導致利用跳脫字元或編碼等方式造成攻擊字串被執行，進而發生無法預期行為，更由於其普遍性導致網路上有多種工具可協助進行攻擊，不需要高深技巧，可想而知其嚴重性！ 常見的&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -192,7 +192,7 @@
         <updated>2017-03-30T22:20:12+08:00</updated>
             <summary type="html">
                 <![CDATA[
-                    HTTP Header 範例 HTTP Header&hellip;
+                    HTTP Header 範例 HTTP&hellip;
                 ]]>
             </summary>
         <content type="html">
