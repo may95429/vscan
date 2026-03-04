@@ -4,10 +4,16 @@
 .container{ margin:1rem auto !important; }
 }
 .header{ margin-bottom:1rem !important; padding:0.5rem 0 !important; }    
-/* ✅ 全站：移除頁面 Title（hero 裡的 h1） */
+ /*✅ 全站：移除頁面 Title（hero 裡的 h1） 
 .hero{
   display: none !important;
-}
+}*/
+/* ✅ 只移除「Pages」頁面的標題，不影響 Posts / Authors / Tags */
+body.page-template .hero h1,
+body.page-template .hero .hero__title,
+body.page-template .hero .hero__subtitle{
+  display: none !important;
+}    
 /* ✅ 全站：縮短 header 高度，讓選單更靠上 */
 .header{
   margin-bottom: .8rem !important;
