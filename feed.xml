@@ -10,19 +10,6 @@
     <id>https://may95429.github.io/vscan</id>
 
     <entry>
-        <title>new post</title>
-        <author>
-            <name>vscan</name>
-        </author>
-        <link href="https://may95429.github.io/vscan/new-post/"/>
-        <id>https://may95429.github.io/vscan/new-post/</id>
-        <media:content url="https://may95429.github.io/vscan/media/posts/12/shutterstock_313805942-624x399-2.webp" medium="image" />
-
-        <updated>2026-03-03T20:24:21+08:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
         <title>CSRF (Cross-Site Request Forgery)</title>
         <author>
             <name>vscan</name>

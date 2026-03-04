@@ -11,19 +11,6 @@
     },
     "items": [
         {
-            "id": "https://may95429.github.io/vscan/new-post/",
-            "url": "https://may95429.github.io/vscan/new-post/",
-            "title": "new post",
-            "image": "https://may95429.github.io/vscan/media/posts/12/shutterstock_313805942-624x399-2.webp",
-            "author": {
-                "name": "vscan"
-            },
-            "tags": [
-            ],
-            "date_published": "2026-03-03T20:24:21+08:00",
-            "date_modified": "2026-03-03T20:25:23+08:00"
-        },
-        {
             "id": "https://may95429.github.io/vscan/csrf-cross-site-request-forgery/",
             "url": "https://may95429.github.io/vscan/csrf-cross-site-request-forgery/",
             "title": "CSRF (Cross-Site Request Forgery)",
