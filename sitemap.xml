@@ -5,10 +5,6 @@
 <loc>https://may95429.github.io/vscan/</loc>
 </url>
 <url>
-<loc>https://may95429.github.io/vscan/blog/</loc>
-<lastmod>2026-03-03T20:27:10+08:00</lastmod>
-</url>
-<url>
 <loc>https://may95429.github.io/vscan/contact/</loc>
 <lastmod>2026-03-02T18:59:06+08:00</lastmod>
 </url>
@@ -55,5 +51,9 @@
 <image:loc>https://may95429.github.io/vscan/media/posts/7/1-1.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
+</url>
+<url>
+<loc>https://may95429.github.io/vscan/zui-xin-xiao-xi/</loc>
+<lastmod>2026-03-05T08:58:43+08:00</lastmod>
 </url>
 </urlset>
