@@ -1,0 +1,50 @@
+<!DOCTYPE html><html lang="zh-tw"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>vscan</title><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://may95429.github.io/vscan/blog/"><link rel="alternate" type="application/atom+xml" href="https://may95429.github.io/vscan/feed.xml" title="vscan - RSS"><link rel="alternate" type="application/json" href="https://may95429.github.io/vscan/feed.json" title="vscan - JSON"><meta property="og:title" content="vscan"><meta property="og:image" content="https://may95429.github.io/vscan/media/website/v-scan-01-2.png"><meta property="og:image:width" content="137"><meta property="og:image:height" content="49"><meta property="og:site_name" content="vscan"><meta property="og:description" content=""><meta property="og:url" content="https://may95429.github.io/vscan/blog/"><meta property="og:type" content="website"><link rel="stylesheet" href="https://may95429.github.io/vscan/assets/css/style.css?v=e8e204ef694970000024d10ba0e4a8d6"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"vscan","logo":"https://may95429.github.io/vscan/media/website/v-scan-01-2.png","url":"https://may95429.github.io/vscan/"}</script><style></style><noscript><style>img[loading] {
+                    opacity: 1;
+                }</style></noscript><style>@media (min-width:56.25em){
+.container{ margin:1rem auto !important; }
+}
+.header{ margin-bottom:1rem !important; padding:0.5rem 0 !important; }    
+ /*✅ 全站：移除頁面 Title（hero 裡的 h1） 
+.hero{
+  display: none !important;
+}*/
+/* ✅ 只移除「Pages」頁面的標題，不影響 Posts / Authors / Tags */
+body.page-template .hero h1,
+body.page-template .hero .hero__title,
+body.page-template .hero .hero__subtitle{
+  display: none !important;
+}    
+/* ✅ 全站：縮短 header 高度，讓選單更靠上 */
+.header{
+  margin-bottom: .8rem !important;
+  padding: .4rem 0 !important;
+}
+
+/* ✅ 全站：縮短 logo 區塊上下距離 */
+.header .logo{
+  margin: 0 auto .4rem !important;
+}
+
+/* ✅ 全站：縮短選單本身上下距離 */
+.header .navbar{
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* ✅ 移除 hero 背景的上方間距 */
+/* 只針對首頁 hero */
+#vscan-home .vscan-hero__bg{
+  margin-top: 0 !important;
+}
+
+/* 避免 section 自己也有間距 */
+.vscan-hero{
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/*選單文字變大*/    
+.navbar__menu a {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}</style></head><body><div class="container"><header class="header"><a class="logo" href="https://may95429.github.io/vscan/"><img src="https://may95429.github.io/vscan/media/website/v-scan-01-2.png" alt="vscan" width="137" height="49"></a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="https://may95429.github.io/vscan/" target="_self">VSCAN</a></li><li class="has-submenu"><a href="https://may95429.github.io/vscan/website-security/" target="_self" aria-haspopup="true">服務內容</a><ul class="navbar__submenu level-2" aria-hidden="true"><li><a href="https://may95429.github.io/vscan/website-security/" target="_self">網站弱點掃描</a></li><li><a href="https://may95429.github.io/vscan/program-security/" target="_self">程式碼弱點掃描</a></li></ul></li><li class="active"><a href="https://may95429.github.io/vscan/blog/" target="_self">最新消息</a></li><li><a href="https://may95429.github.io/vscan/contact/" target="_self">關於我們</a></li></ul></nav></header><main class="main"><div class="l-cards l-cards--reverse"><article class="c-card"><div class="c-card__text"><header><h2><a href="https://may95429.github.io/vscan/blog/csrf-cross-site-request-forgery/" class="inverse">CSRF (Cross-Site Request Forgery)</a></h2><p class="c-card__meta"><a href="https://may95429.github.io/vscan/authors/vscan/" title="vscan">vscan</a> <time datetime="2018-05-03T18:03">五月 3, 2018</time></p></header><p class="c-card__desc">CSRF 為一種類似詐騙的手法，藉由偽造的第三方網站內容誘騙受害者連線，該受害者需已透過身分驗證拿到目標網站的 Session，導致在不知情狀況下，受害者開啟了偽造網站後觸發了對目標網站以受害者身分的連線要求。 該弱點導致攻擊者劫持受害者的&hellip;</p><a href="https://may95429.github.io/vscan/blog/csrf-cross-site-request-forgery/" class="btn c-card__btn">Read more</a></div></article><article class="c-card"><div class="c-card__text"><header><h2><a href="https://may95429.github.io/vscan/blog/cross-site-scripting/" class="inverse">Cross-Site Scripting</a></h2><p class="c-card__meta"><a href="https://may95429.github.io/vscan/authors/vscan/" title="vscan">vscan</a> <time datetime="2018-02-28T22:40">二月 28, 2018</time></p></header><p class="c-card__desc">Cross-Site Scripting (XSS) 對網站而言，是一個大麻煩，不只是其弱點容易被發現與使用，被利用後所造成的後果更是無法預期!&hellip;</p><a href="https://may95429.github.io/vscan/blog/cross-site-scripting/" class="btn c-card__btn">Read more</a></div></article><article class="c-card"><div class="c-card__text"><header><h2><a href="https://may95429.github.io/vscan/blog/sql-injection/" class="inverse">SQL Injection</a></h2><p class="c-card__meta"><a href="https://may95429.github.io/vscan/authors/vscan/" title="vscan">vscan</a> <time datetime="2017-11-15T21:37">十一月 15, 2017</time></p></header><p class="c-card__desc">SQL Injection 蟬聯 OWASP&hellip;</p><a href="https://may95429.github.io/vscan/blog/sql-injection/" class="btn c-card__btn">Read more</a></div></article><article class="c-card"><div class="c-card__text"><header><h2><a href="https://may95429.github.io/vscan/blog/injection-attack/" class="inverse">Injection Attack</a></h2><p class="c-card__meta"><a href="https://may95429.github.io/vscan/authors/vscan/" title="vscan">vscan</a> <time datetime="2017-06-15T23:05">六月 15, 2017</time></p></header><p class="c-card__desc">Injection Attack (注入式攻擊)為一種利用外部不被信任的輸入來源，未經驗證就被直接帶入後端處理，導致利用跳脫字元或編碼等方式造成攻擊字串被執行，進而發生無法預期行為，更由於其普遍性導致網路上有多種工具可協助進行攻擊，不需要高深技巧，可想而知其嚴重性！ 常見的&hellip;</p><a href="https://may95429.github.io/vscan/blog/injection-attack/" class="btn c-card__btn">Read more</a></div></article><article class="c-card"><div class="c-card__text"><header><h2><a href="https://may95429.github.io/vscan/blog/http-header-an-quan-xing/" class="inverse">HTTP Header 安全性</a></h2><p class="c-card__meta"><a href="https://may95429.github.io/vscan/authors/vscan/" title="vscan">vscan</a> <time datetime="2017-03-30T22:20">三月 30, 2017</time></p></header><p class="c-card__desc">HTTP Header 範例 HTTP&hellip;</p><a href="https://may95429.github.io/vscan/blog/http-header-an-quan-xing/" class="btn c-card__btn">Read more</a></div></article></div></main><footer class="footer"><nav class="footer__nav"><ul></ul></nav><div class="footer__copyright">@vscan 2026</div></footer></div><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth:'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.navbar',};</script><script defer="defer" src="https://may95429.github.io/vscan/assets/js/scripts.min.js?v=b103b2211e74472ffa1a0d35c0918ecc"></script><script>/*<![CDATA[*/var images=document.querySelectorAll("img[loading]");for(var i=0;i<images.length;i++){if(images[i].complete){images[i].classList.add("is-loaded")}else{images[i].addEventListener("load",function(){this.classList.add("is-loaded")},false)}};/*]]>*/</script></body></html>

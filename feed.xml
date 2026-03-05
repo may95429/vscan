@@ -14,8 +14,8 @@
         <author>
             <name>vscan</name>
         </author>
-        <link href="https://may95429.github.io/vscan/csrf-cross-site-request-forgery/"/>
-        <id>https://may95429.github.io/vscan/csrf-cross-site-request-forgery/</id>
+        <link href="https://may95429.github.io/vscan/blog/csrf-cross-site-request-forgery/"/>
+        <id>https://may95429.github.io/vscan/blog/csrf-cross-site-request-forgery/</id>
 
         <updated>2018-05-03T18:03:47+08:00</updated>
             <summary type="html">
@@ -56,8 +56,8 @@
         <author>
             <name>vscan</name>
         </author>
-        <link href="https://may95429.github.io/vscan/cross-site-scripting/"/>
-        <id>https://may95429.github.io/vscan/cross-site-scripting/</id>
+        <link href="https://may95429.github.io/vscan/blog/cross-site-scripting/"/>
+        <id>https://may95429.github.io/vscan/blog/cross-site-scripting/</id>
 
         <updated>2018-02-28T22:40:16+08:00</updated>
             <summary type="html">
@@ -114,8 +114,8 @@
         <author>
             <name>vscan</name>
         </author>
-        <link href="https://may95429.github.io/vscan/sql-injection/"/>
-        <id>https://may95429.github.io/vscan/sql-injection/</id>
+        <link href="https://may95429.github.io/vscan/blog/sql-injection/"/>
+        <id>https://may95429.github.io/vscan/blog/sql-injection/</id>
 
         <updated>2017-11-15T21:37:38+08:00</updated>
             <summary type="html">
@@ -142,7 +142,7 @@
 <p><strong style="font-size: inherit;">替代字元</strong><span style="font-size: inherit;"> <br></span><span style="font-size: inherit;">使用 Replace() 等方法來將特定字元做替換，但可能攻擊字元稍微經過變化或加密後，變成誤擋或漏檔等結果。</span></p>
 <p><span style="font-size: inherit;"> </span><em style="font-size: inherit;">string sql = "SELECT * FROM WIDGETS WHERE ID=" +badValue.Replace("'","''");</em><span style="font-size: inherit;">   </span></p>
 <p><strong style="font-size: inherit;">正則表達式</strong><span style="font-size: inherit;"> <br>利用 Regular Expression 設定合法的格式，直接用白名單方式限定參數的內容，這就變成需根據資料的不同來調整對應的 Regex，雖然嚴謹但較為麻煩，但有可能產生誤擋或漏擋的情況發生。   </span></p>
-<p><span style="font-size: inherit;">以上幾種防範方法適用於 </span><a href="https://may95429.github.io/vscan/injection-attack/">Injection attack</a><span style="font-size: inherit;"> 類型的攻擊行為，可針對外部不被信任的參數做驗證與過濾處理，避免產生不可預期的行為，可視資料的多樣性與參數用途來選擇相對應的防禦方式。</span></p>
+<p><span style="font-size: inherit;">以上幾種防範方法適用於 </span><a href="https://may95429.github.io/vscan/blog/injection-attack/">Injection attack</a><span style="font-size: inherit;"> 類型的攻擊行為，可針對外部不被信任的參數做驗證與過濾處理，避免產生不可預期的行為，可視資料的多樣性與參數用途來選擇相對應的防禦方式。</span></p>
             ]]>
         </content>
     </entry>
@@ -151,8 +151,8 @@
         <author>
             <name>vscan</name>
         </author>
-        <link href="https://may95429.github.io/vscan/injection-attack/"/>
-        <id>https://may95429.github.io/vscan/injection-attack/</id>
+        <link href="https://may95429.github.io/vscan/blog/injection-attack/"/>
+        <id>https://may95429.github.io/vscan/blog/injection-attack/</id>
 
         <updated>2017-06-15T23:05:21+08:00</updated>
             <summary type="html">
@@ -165,8 +165,8 @@
                 <p>Injection Attack (注入式攻擊)為一種利用外部不被信任的輸入來源，未經驗證就被直接帶入後端處理，導致利用跳脫字元或編碼等方式造成攻擊字串被執行，進而發生無法預期行為，更由於其普遍性導致網路上有多種工具可協助進行攻擊，不需要高深技巧，可想而知其嚴重性！  </p>
 <p><strong>常見的 Injection attack</strong></p>
 <ul>
-<li><strong><a href="https://may95429.github.io/vscan/sql-injection/" target="_blank" rel="noopener noreferrer"><span style="font-size: large;">SQL injection</span></a></strong></li>
-<li><a href="http://vscan.local/blog/cross-site-scripting/" target="_blank" rel="noopener"></a><strong><a href="https://may95429.github.io/vscan/cross-site-scripting/">Cross-site Scripting (XSS)</a></strong></li>
+<li><strong><a href="https://may95429.github.io/vscan/blog/sql-injection/" target="_blank" rel="noopener noreferrer"><span style="font-size: large;">SQL injection</span></a></strong></li>
+<li><a href="http://vscan.local/blog/cross-site-scripting/" target="_blank" rel="noopener"></a><strong><a href="https://may95429.github.io/vscan/blog/cross-site-scripting/">Cross-site Scripting (XSS)</a></strong></li>
 <li><span style="font-size: medium;">CRLF injection/Host Header</span></li>
 <li><span style="font-size: medium;">Code injection/OS cmd</span></li>
 <li><span style="font-size: medium;">SMTP injeciton</span></li>
@@ -186,8 +186,8 @@
         <author>
             <name>vscan</name>
         </author>
-        <link href="https://may95429.github.io/vscan/http-header-an-quan-xing/"/>
-        <id>https://may95429.github.io/vscan/http-header-an-quan-xing/</id>
+        <link href="https://may95429.github.io/vscan/blog/http-header-an-quan-xing/"/>
+        <id>https://may95429.github.io/vscan/blog/http-header-an-quan-xing/</id>
 
         <updated>2017-03-30T22:20:12+08:00</updated>
             <summary type="html">
@@ -200,7 +200,7 @@
                 <figure class="post__image wp-image-2340"><img loading="lazy"  title="HTTP Header" src="https://may95429.github.io/vscan/media/posts/1/擷取.png" alt="HTTP Header to Google" width="509" height="312" sizes="(max-width: 768px) 100vw, 1360px" srcset="https://may95429.github.io/vscan/media/posts/1/responsive/擷取-xs.png 300w ,https://may95429.github.io/vscan/media/posts/1/responsive/擷取-sm.png 480w ,https://may95429.github.io/vscan/media/posts/1/responsive/擷取-md.png 768w ,https://may95429.github.io/vscan/media/posts/1/responsive/擷取-lg.png 1024w ,https://may95429.github.io/vscan/media/posts/1/responsive/擷取-xl.png 1360w"></figure>
 <p>HTTP Header 範例  </p>
 <p>HTTP Header 可視為網站與客戶在連線時的橋溝通梁，也就是遵照 HTTP 的協議，利用 Server 端的參數來告知客戶端瀏覽器需遵守其遊戲規則，你才能跟我進行連線溝通與確認是否繼續進行下一步動作，所以當客戶端發出需求時，Server 端可藉由回應來確認連線的安全性需求。</p>
-<p>近來跟客戶討論網站安全性時，常會遇到程式碼修補上的困難，不外乎還需要開發人員的調整及測試時間等問題，其實可以先進行 HTTP Header 的安全性設定。 就如 OWASP TOP 10 與 SANS/CWE TOP 25 所列弱點，常見的 <a href="https://may95429.github.io/vscan/cross-site-scripting/" target="_blank" rel="noopener noreferrer">XSS(Cross-Site Scripting)</a>與 CSRF(Cross-Site Requset Forgery)等弱點都可藉由調整 HTTP Header 來達成初步的防禦效果! OWASP 就有針對此發表了相關說明。</p>
+<p>近來跟客戶討論網站安全性時，常會遇到程式碼修補上的困難，不外乎還需要開發人員的調整及測試時間等問題，其實可以先進行 HTTP Header 的安全性設定。 就如 OWASP TOP 10 與 SANS/CWE TOP 25 所列弱點，常見的 <a href="https://may95429.github.io/vscan/blog/cross-site-scripting/" target="_blank" rel="noopener noreferrer">XSS(Cross-Site Scripting)</a>與 CSRF(Cross-Site Requset Forgery)等弱點都可藉由調整 HTTP Header 來達成初步的防禦效果! OWASP 就有針對此發表了相關說明。</p>
 <p><strong>HTTP Header 安全設定</strong></p>
 <ul>
 <li style="font-weight: 400; text-align: left;"><a href="https://www.owasp.org/index.php/OWASP_Secure_Headers_Project#hsts_bp" target="_blank" rel="noopener"><span style="fontfont-weight: 400; font-size: medium;">HTTP Strict Transport Security (HSTS)</span></a></li>
